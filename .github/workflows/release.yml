@@ -1,8 +1,8 @@
 name: Create a release
 on:
   push:
-    branch:
-      - "release"
+    branches:
+      - release
     tags:
       - "v*"
 
