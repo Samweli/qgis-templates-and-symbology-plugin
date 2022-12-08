@@ -381,7 +381,7 @@ def generate_plugin_repo_xml(
     repo_index.write_text(contents, encoding="utf-8")
     _log(f"Plugin repo XML file saved at {repo_index}", context=context)
 
-    return content
+    return contents
 
 
 @lru_cache()
