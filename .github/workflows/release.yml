@@ -73,4 +73,6 @@ jobs:
           
           git add -A
           git commit -m "Update plugin.xml"
-          git push
+          git remote -v
+          git branch
+          git push origin release_test:release_test
