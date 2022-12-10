@@ -75,4 +75,4 @@ jobs:
           git commit -m "Update plugin.xml"
           git remote -v
           git branch
-          git push origin refs/heads/release_test:refs/heads/release_test
+          git push origin --force refs/heads/release_test:refs/heads/release_test
